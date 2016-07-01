@@ -1,0 +1,20 @@
+﻿body {
+    background-color: #FFFBE5;
+	font-family: Arial, sans-serif;}
+
+h1 {
+	 color: #0B5D96;}
+
+#slogan {
+	font-size: 24px;
+	font-style: italic;
+	color: #0B5D96;}
+
+.hero {
+	background-image:url('../images/hubspot-hero.jpg');
+	height: 533px; width:800px;
+	background-repeat: no-repeat;
+	margin:auto;
+	color:#FFFFFF;
+	font-size: 24px; 
+	font-style: italic;}
