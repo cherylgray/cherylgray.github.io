@@ -1,41 +1,65 @@
-﻿body
-{
-	margin: 0;
-	padding: 0;
-	font-family: Arial, sans-serif;
+﻿@import url(https://fonts.googleapis.com/css?family=PT+Serif:700);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+body{
+	font-family:'Josefin Sans', sans-serif;
+	margin: 5px 10px;
+	padding:5px;
+	float:left;   
+	border:1px #224466 solid;
+}
+	h1,h2,h3,h4,h5,h6 {
+		font-weight: 800;
+}
+	h1 {
+		font-family: 'PT Serif', serif;
 }
 
-#content
-
-{
-	margin: 40px;
-	padding: 0;
-	border:6px;
-	font-family: Arial, sans-serif;
-}
-
-
-h1,h2,h3,h4,h5,h6
-{
-	font-weight: 500;
-	line-height: 1.1;
-}
-
-h1 {font-size: 2.5em; color:#4dc3ff;
-}
-h2 {font-size: 1.5em;
+	h2 {
+		font-size: 1.2em;
 } 
-h3 {font-size: 1.25em;
+	h3 {
+		font-size: 1.1em;
 } 
+	p {
+		line-height:1.2;
+}
+	.maincontentleft{
+		display:inline-block;
+		width:49%;
+		height:600px;
+		float:left;
+		padding:5px;
+		border:1px #6c8baa solid;
+}
+	.maincontentright{
+		display:inline-block;
+		width:49%;
+		height:600px;
+		float:right;
+		padding:5px;
+		border:1px #6c8baa solid;
+}
+	.button {
+		font-family: 'PT Serif', serif;
+		display:inline-block; height:25px; width:30%; padding:1%;
+	 	background-color: #6c8baa;color:white; font-weight:600;font-size:1.3em;text-decoration:none;	
+}
+	#topnavbar {
+	    background-color: #6c8baa;
+	    border-color: #e7e7e7;
+	   	text-align:center;
+}	
+ 	#footer {
+	    height:30px;
+	    color:#6c8baa;
+	    font-size:0.9em;
+	    font-weight:800;
+	    float:left; 
+	    text-align:center;
+}
 
-#topnavbar {
-    background-color: #224466;
-    border-color: #e7e7e7;
-}
-.button {
- display:inline-block;
- height: 100px;
- width: 600px;
- background-color: #6c8baa;
- color:white;	
-}
+
+
+
+
