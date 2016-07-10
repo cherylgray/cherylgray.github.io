@@ -1,0 +1,41 @@
+﻿body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+#content
+
+{
+	margin: 40px;
+	padding: 0;
+	border:6px;
+	font-family: Arial, sans-serif;
+}
+
+
+h1,h2,h3,h4,h5,h6
+{
+	font-weight: 500;
+	line-height: 1.1;
+}
+
+h1 {font-size: 2.5em; color:#4dc3ff;
+}
+h2 {font-size: 1.5em;
+} 
+h3 {font-size: 1.25em;
+} 
+
+#topnavbar {
+    background-color: #224466;
+    border-color: #e7e7e7;
+}
+.button {
+ display:inline-block;
+ height: 100px;
+ width: 600px;
+ background-color: #6c8baa;
+ color:white;	
+}
