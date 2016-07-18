@@ -1,0 +1,86 @@
+﻿@import url(https://fonts.googleapis.com/css?family=PT+Serif:700);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+body{
+	font-family:'Josefin Sans', sans-serif;
+}
+	#wrapper{
+	margin: 0 auto;
+	width:1024px;
+	border:1px #224466 solid;
+}
+		header{
+		margin: 0 auto;
+		width:1024px;
+		padding:10px 20px;
+}
+		nav {
+	    background-color: #0F402A;
+	    text-align:center;
+}
+		h1,h2,h3,h4,h5,h6 {
+		font-weight: 800;
+}
+		h1 {
+		font-family: 'PT Serif', serif;
+}
+		h2 {
+		font-size: 1.2em;
+} 
+		h3 {
+		font-size: 1.1em;
+} 
+		p {
+		line-height:1.2;
+}
+		#campus{
+		display:inline-block;
+		width:500px;
+		height:600px;
+		float:left;
+		padding:5px;
+		border-right:1px #6c8baa solid;
+}
+		#globe{
+		display:inline-block;
+		width:500px;
+		height:400px;
+		float:right;
+		padding:5px;
+		border-left:1px #6c8baa solid;
+}
+		.social{
+		display:inline-block;
+		background-color: #c6d3d7;
+		font-family: 'PT Serif', serif;
+		color:#0F402A;
+		width:500px;
+		height:190px;
+		padding:5px;
+		text-align:center;
+}
+		.button {
+		font-family: 'PT Serif', serif;
+		display:inline-block; height:25px; width:200px; padding:10px;
+	 	color:white; font-weight:600;font-size:1.3em;text-decoration:none;
+}	
+ 		footer {
+	    height:25px;
+	    width:1024px;
+	    display:inline-block;
+	    background-color:#0F402A;
+	    margin: 0 auto;
+		font-size:0.9em;
+		font-weight:800;
+	    color:white;
+	    text-align:center;
+}
+ 		.image-border-white-2 {
+ 		border:2px white solid;
+
+}		.image-left {
+		float: left;
+		padding-right:3px;
+}
+
+
