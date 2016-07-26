@@ -1,0 +1,117 @@
+﻿@import url(https://fonts.googleapis.com/css?family=PT+Serif:700);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+body{
+	font-family:'Josefin Sans', sans-serif;
+}
+	#wrapper{
+	margin: 0 auto;
+	width:100%;
+	border:1px #224466 solid;
+}
+
+		header{
+		margin: 0 auto;
+		width:100%;
+	
+}
+		nav {
+	    background-color: #0F402A;
+	    text-align:center;
+	    margin-bottom:5px;
+}
+
+		.button {
+		font-family: 'PT Serif', serif;
+		display:inline-block; height:25px; width:200px; padding:2%;
+	 
+}
+
+		h1,h2,h3,h4,h5,h6 {
+		font-weight: 800;
+		
+}
+		h1 {
+		font-family: 'PT Serif', serif;
+}
+		h2 {
+		font-size: 1.2em;
+} 
+		h3 {
+		font-size: 1.1em;
+		color:#0F402A;
+} 
+		p {
+		line-height:1.2em;
+}
+
+		a:link {
+		color: #0f402a;text-decoration:none; font-weight:600;
+}		
+		a:hover {
+		color: #0f402a;background-color: #c6d3d7;text-decoration:none; font-weight:600;
+}
+		a:visited {
+		color: #0f402a;background-color: #c6d3d7;text-decoration:none; font-weight:600;
+}
+	
+
+		a.button:link { 
+		color:#ffffff; text-decoration:none; font-weight:600;font-size:1.3em;
+
+}	
+
+		#campus{
+		display:inline-block;
+		width:46%;
+		height:600px;
+		float:left;
+		padding-left:25px; padding-right: 25px;
+		border-right:1px #6c8baa solid;
+}
+		#globe{
+		display:inline-block;
+		width:46%;
+		height:600px;
+		float:right;
+		padding-left:25px; padding-right: 25px;
+}
+		.social{
+		background-color: #c6d3d7;
+		border: 3px #0F402A dotted;
+		font-family: 'PT Serif', serif;
+		color:#0F402A;
+		float:right;
+		text-align:right;
+		width:160px;
+		height:160px;
+		padding:20px;
+		margin-left:10px;
+}
+	
+ 		footer {
+	    height:25px;
+	    width:100%;
+	    display:inline-block;
+	    background-color:#0F402A;
+	    margin: 0 auto;
+		font-size:0.9em;
+		font-weight:800;
+	    color:white;
+	    text-align:center;
+}
+
+		.image-left {
+		float: left;
+		padding-right:10px;
+}
+		
+		.clearfix:after {
+	    visibility: hidden;
+	    display: block;
+	    font-size: 0;
+	    content: " ";
+	    clear: both;
+	    height: 0;
+}
+
