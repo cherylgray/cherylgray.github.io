@@ -156,12 +156,10 @@ footer {
 	font-family: 'PT Serif', serif;
 	color:#ffffff;
 	width:100%;
-	padding:1.25em;
+	padding:0.65em;
 	border: 1px solid white;
 	display:block;
 	text-align:center;
-	
-
 }
 } 
 @media screen and (max-width:480px) {  
@@ -179,7 +177,7 @@ footer {
 	margin: 0 auto;
 	font-size:0.6em;
 	font-weight:800;
-	padding-top:0.5em; padding-bottom:0.5em;
+	padding-top:0.2em; padding-bottom:0.2em;
 	color:white;
 	text-align:center;
 }
